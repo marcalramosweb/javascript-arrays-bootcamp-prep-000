@@ -17,4 +17,4 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, element){
   return chocolateBars;
 }
 
-destructivelyAddElementToBeginningOfArray('foo', 1);
+destructivelyAddElementToBeginningOfArray(1);
