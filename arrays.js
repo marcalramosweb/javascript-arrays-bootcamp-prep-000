@@ -12,13 +12,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, element){
   chocolateBars.unshift(element)
 
   return chocolateBars;
-  // chocolateBars = ['foo', 1];
-  //
-  // var newarr = ['chocotate', ...chocolateBars];
-  //
-  // chocolateBars = chocolateBars.unshift(1);
-  //
-  // return chocolateBars;
+
 }
 
 destructivelyAddElementToBeginningOfArray('foo',1);
@@ -38,7 +32,7 @@ destructivelyAddElementToEndOfArray();
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
-  array
+  return array
 }
 
 function removeElementFromBeginningOfArray(array) {
