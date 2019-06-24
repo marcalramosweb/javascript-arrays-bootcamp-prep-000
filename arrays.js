@@ -12,7 +12,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, element){
 
   var newarr = ['chocotate', ...chocolateBars];
 
-  chocolateBars = chocolateBars.pop(1);
+  chocolateBars = chocolateBars.unshift(1);
 
   return chocolateBars;
 }
