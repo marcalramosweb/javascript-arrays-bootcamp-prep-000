@@ -13,11 +13,11 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, element){
 
   return chocolateBars;
   // chocolateBars = ['foo', 1];
-  // 
+  //
   // var newarr = ['chocotate', ...chocolateBars];
   // 
   // chocolateBars = chocolateBars.unshift(1);
-  // 
+  //
   // return chocolateBars;
 }
 
