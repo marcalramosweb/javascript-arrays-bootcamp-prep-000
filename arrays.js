@@ -22,3 +22,13 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, element){
 }
 
 destructivelyAddElementToBeginningOfArray('foo',1);
+
+
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element)
+  return array
+}
+
+destructivelyAddElementToEndOfArray();
+
+
