@@ -8,13 +8,17 @@ function addElementToBeginningOfArray(chocolateBars, element){
 addElementToBeginningOfArray('foo', 1);
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars, element){
-  chocolateBars = ['foo', 1];
 
-  var newarr = ['chocotate', ...chocolateBars];
-
-  chocolateBars = chocolateBars.unshift(1);
+  chocolateBars.unshift(element)
 
   return chocolateBars;
+  // chocolateBars = ['foo', 1];
+  // 
+  // var newarr = ['chocotate', ...chocolateBars];
+  // 
+  // chocolateBars = chocolateBars.unshift(1);
+  // 
+  // return chocolateBars;
 }
 
-destructivelyAddElementToBeginningOfArray(1);
+destructivelyAddElementToBeginningOfArray('foo',1);
